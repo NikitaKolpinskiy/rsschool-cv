@@ -3,9 +3,9 @@
 **Name:** Nikita<br/>
 **Last Name:** Kolpinskiy<br/>
 **Contacts:** *phone:* +375(29) 101-66-41, *e-mail:* nikitakolpinski@mail.ru<br/>
-**About me:**  Hello! I’m 21 y.o and I want to stay a professional front-end developer. When I found the world of programming for myself, not a day goes by without learning something new. First of all, I want to prove to myself that I can do it, even without higher education in programming. Every time I solve a problem, I rejoice like a little child. I see the goal – don't see any barriers.
+**About me:**  Hello! I’m 21 y.o and I want to stay a professional front-end developer. When I found the world of programming for myself, not a day goes by without learning something new. First of all, I want to prove to myself that I can do it, even without higher education in programming. Every time I solve a problem, I rejoice like a little child. I see the goal – don't see any barriers.<br/>
 **Skills:** HTML5, CSS3, GIT, JavaScript, Bootstrap<br/>
-**Code examples:** Solving kata at the [codewards](https://www.codewars.com/kata/52597aa56021e91c93000cb0).
+**Code examples:** Solving kata at the [codewards](https://www.codewars.com/kata/52597aa56021e91c93000cb0).<br/>
 *Solution*: 
 ```javascript
 var moveZeros = function (arr) {
