@@ -9,7 +9,7 @@
 *Solution*: 
 ```javascript
 var moveZeros = function (arr) {
-    return arr.filter(x => x !== 0 ).concat(arr.filter( x => x === 0));
+    return arr.filter(x => x !== 0 ).concat(arr.filter(x => x === 0));
 }
 ```
 **Experience:** I don't have any projects experience yet, but i hope will get it soon.
