@@ -347,3 +347,65 @@ ul {
     width: 50%;
     height: auto;
 }
+
+.footer-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #98BCFC;
+ }
+
+ .footer_container {
+     width: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+.footer-main_list {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: flex-start;
+    font-family: Montserrat;
+    font-size: 1.1em;
+}
+
+.footer-main_list li {
+    padding-top: 10%;
+}
+
+.footer-main_list p {
+    margin: 0;
+}
+
+.footer-main_list img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5%;
+}
+
+.footer-main_list a {
+    color: black;
+    text-decoration: none;
+    font-family: Montserrat;    
+    font-size: 1em;
+}
+
+.footer-contacts_text {
+    font-family: Montserrat;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+
+.footer-image {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-image img {
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+}
