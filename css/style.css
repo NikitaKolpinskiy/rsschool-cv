@@ -139,3 +139,211 @@ ul {
     border-top-left-radius: 4%;  
     width: 100%;
 }
+ 
+.about_me-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 10%;
+    background-color: rgb(153,188,252);
+    
+}
+
+.about_me-container h2 {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.2em;
+    color: #0E1284;
+}
+
+.about_me-container_strip {
+    height: 1px;
+    width: 25%;
+    background-color: #4285F4;
+    border-color: #4285F4;
+}
+
+.about_me-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.about_me-text p {
+    font-family: Montserrat;
+    font-size: 1.2em; 
+}
+
+.button_container {
+    pointer-events: visibleStroke;
+    border-radius: 19px;
+    background-color: rgb(247,220,79);
+    width: 20%;
+    height: 50px;
+    border: black;
+}
+
+.button_reference {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    text-decoration: none; 
+    color: black;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.button_container:hover {
+    background-color: #0E1284 ;
+    transition: 1s ease-in-out all;
+}
+
+.button_reference:hover {
+    color: rgb(247,220,79);
+    transition: 1s ease-in-out all;
+}
+
+
+.soft_skills-container {
+  
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.soft_skills-container h2 {
+    text-align: center;
+    color: #0E1284;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2.2em;
+    
+}
+
+.soft_skills-container_strip {
+    height: 1px;
+    width: 25%;
+    background-color: #4285F4;
+    border-color: #4285F4;
+}
+
+.soft_skills-container img {
+    width: 80px;
+    height: 80px;
+}
+
+
+.soft_skills_list {
+    padding: 5% 0% 0% 0% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+.soft_skills-container ul li {
+    margin: 0 5% 5% 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-width: 300px;
+    min-height: 250px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #0E1284;
+    border-radius: 10%;
+    background-color: rgb(222,234,255);
+}
+
+.soft_skills-container ul li:hover {
+    box-shadow: 0px 18px 40px  rgba(0, 0, 0, 0.35);
+}
+
+
+
+.professional_skills_container {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+    background-color: #EEEEEE;   
+}
+
+
+.professional_skills_container h2 {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.2em;
+}
+
+.skills_container_strip {
+    height: 1px;
+    width: 35%;
+    background-color: #4285F4;
+    border-color: #4285F4;
+}
+
+.professional_skills_container ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #23286B;  
+}
+
+
+.professional_skills_container ul li  ::before {
+    margin: 0% 5%;
+    content: "\2022";
+    line-height: 5%;
+    color:#E6D32C;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+
+.projects_container {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+}
+
+.projects_container_portfollio {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2.2em;
+}
+
+.projects_container_portfollio_strip {
+    height: 1px;
+    width: 25%;
+    background-color: #4285F4;
+    border-color: #4285F4;
+}
+
+.projects_container_main_part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.projects_container_main_part_text  p {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 1.7em;
+}
+
+.projects_container_main_part img {
+    width: 50%;
+    height: auto;
+}
