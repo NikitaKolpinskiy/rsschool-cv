@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    max-width: 1024px;
+}
+
+footer {
+    max-width: 1024px; 
+}
+
+figure {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+.initial_main {
+    display: flex;
+}
+
+.initial_main_left-side {
+    padding: 5% 0% 0% 5%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+
+.main_title_navigation a {
+    text-decoration: none;
+    color: rgb(24,22,106);
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+
+.navigation-menu {
+    padding: 5% 15% 0% 0%;
+}
+
+.navigation-menu a  {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.navigation-menu_list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    font-family: Montserrat;
+    font-size: 0.5em;
+    font-weight: bold;  
+}
+
+.navigation-menu_list li a:hover {
+    text-decoration: underline;
+    transition: 0.1s ease-in-out all;
+    color:rgb(24,22,106);
+}
+
+.main_article_greetings {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: Montserrat;
+    font-style: normal;
+    
+}
+
+.main_article_text h3,h2 {
+    margin: 0;
+    color: rgb(24,22,106);
+}
+
+
+.main_article_text h5 {
+    margin: 0;
+    color: black; 
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 0.7em; 
+}
+
+.main_contacts {
+    background-color: rgb(230,212,44);
+    border-radius: 20px 0px 0px 20px;
+}
+
+.main_contacts_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+
+}
+
+.main_contacts_list li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 2%;
+}
+
+.main_contacts_list span {
+    font-weight: bold;
+    font-family: Montserrat;    
+    font-size: 1.2em;
+}
+
+
+.main_contacts_list li a {
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;    
+    font-size: 1em;
+}
+
+.main_section_image {
+    display: flex;
+}
+
+.main_section_image img {
+    border-top-left-radius: 4%;  
+    width: 100%;
+}
